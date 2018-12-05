@@ -21,7 +21,7 @@ public class DemoNode {
 
     }
 
-
+//遍历方法
     public static void  getTree (Node root){
         //如果每次传入的Node部位空，就继续遍历
         if(root==null){
