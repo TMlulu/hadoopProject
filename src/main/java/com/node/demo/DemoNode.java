@@ -2,6 +2,7 @@ package com.node.demo;
 
 public class DemoNode {
     public static void main(String[] args) {
+        //根节点
        Node root =  new Node("2");
        root.addLeftNode("3");
        root.addRigthNode("6");
@@ -22,6 +23,7 @@ public class DemoNode {
 
 
     public static void  getTree (Node root){
+        //如果每次传入的Node部位空，就继续遍历
         if(root==null){
            return;
         }
