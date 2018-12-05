@@ -2,6 +2,9 @@ package com.node.demo;
 //测试冲突
 //11111111111
 public class DemoNode {
+    //aaaaaaaaa
+    //bbbbbbbbbbb
+    //github
     public static void main(String[] args) {
         //根节点
        Node root =  new Node("2");
