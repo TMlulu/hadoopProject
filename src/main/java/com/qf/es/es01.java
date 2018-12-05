@@ -11,6 +11,7 @@ import java.net.InetAddress;
 public class es01 {
     public static void main(String[] args) {
         try{
+            //这里时测试代码
             //设置集群名称
             Settings settings = Settings.builder().put("cluster.name", "my-es").build();
             //创建client
