@@ -20,7 +20,7 @@ public class DemoNode {
 
     }
 
-
+//遍历方法
     public static void  getTree (Node root){
         if(root==null){
            return;
